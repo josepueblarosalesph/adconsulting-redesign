@@ -11,6 +11,8 @@
 .header nav a:after{left:50%;right:auto;width:0;transform:translateX(-50%);transform-origin:center;transition:width .42s cubic-bezier(.22,1,.36,1),box-shadow .42s ease}
 .header nav a:hover:after,.header nav a[aria-current=page]:after{right:auto;width:100%;animation:menu-bar-glow .7s ease-out}
 @keyframes menu-bar-glow{0%{width:0;box-shadow:0 0 0 rgba(232,119,34,0)}55%{width:108%;box-shadow:0 0 14px rgba(232,119,34,.38)}100%{width:100%;box-shadow:0 0 0 rgba(232,119,34,0)}}
+.header nav a:after{right:auto!important;left:50%!important;width:100%!important;transform:translateX(-50%) scaleX(0)!important;transition:transform .5s cubic-bezier(.22,1,.36,1),box-shadow .5s ease!important}
+.header nav a:hover:after,.header nav a[aria-current=page]:after{right:auto!important;transform:translateX(-50%) scaleX(1)!important;box-shadow:0 0 12px rgba(232,119,34,.32)}
 
 /* Focal points keep each service photograph readable across formats. */
 .hero > .service-photo,.image-wrap > .service-photo,.photo-card > .service-photo{object-position:var(--photo-focus,50% 50%)}

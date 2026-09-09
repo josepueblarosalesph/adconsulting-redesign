@@ -32,3 +32,15 @@
 /* Focal points keep each service photograph readable across formats. */
 .hero > .service-photo,.image-wrap > .service-photo,.photo-card > .service-photo{object-position:var(--photo-focus,50% 50%)}
 @media(max-width:600px){.hero > .service-photo,.image-wrap > .service-photo,.photo-card > .service-photo{object-position:var(--photo-focus-mobile,var(--photo-focus,50% 50%))}}
+
+/* Hover motion for sandwich menu items */
+.menu-links a{position:relative;overflow:hidden;transform:translateX(0);transition:color .35s cubic-bezier(.22,1,.36,1),padding-left .35s cubic-bezier(.22,1,.36,1),background-color .35s ease,transform .35s cubic-bezier(.22,1,.36,1)}
+.menu-links a:before{content:'';position:absolute;left:0;bottom:-1px;width:0;height:2px;background:var(--primary);box-shadow:0 0 14px rgba(232,119,34,.65);transition:width .45s cubic-bezier(.22,1,.36,1)}
+.menu-links a:hover{transform:translateX(6px);background:linear-gradient(90deg,rgba(232,119,34,.1),transparent 72%)}
+.menu-links a:hover:before{width:100%}
+.menu-links a svg{transition:transform .35s cubic-bezier(.22,1,.36,1),color .35s ease}
+.menu-links a:hover svg{transform:translateX(5px) rotate(-8deg);color:var(--primary)}
+.menu-secondary a{position:relative;display:inline-flex;width:max-content;padding-bottom:3px;transition:color .3s ease,transform .3s cubic-bezier(.22,1,.36,1)}
+.menu-secondary a:after{content:'';position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--primary);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.22,1,.36,1)}
+.menu-secondary a:hover{color:var(--primary);transform:translateX(6px)}
+.menu-secondary a:hover:after{transform:scaleX(1)}

@@ -20,6 +20,12 @@
 .menu-panel[data-slot=sheet-content]{transition:transform .65s cubic-bezier(.22,1,.36,1),opacity .45s ease!important}
 .menu-panel[data-slot=sheet-content][data-starting-style],.menu-panel[data-slot=sheet-content][data-ending-style]{opacity:0}
 .menu-panel[data-slot=sheet-content][data-side=right][data-starting-style],.menu-panel[data-slot=sheet-content][data-side=right][data-ending-style]{transform:translateX(100%)}
+.menu-links a{position:relative;overflow:hidden;transition:color .3s ease,padding-left .45s cubic-bezier(.22,1,.36,1)}
+.menu-links a:after{content:'';position:absolute;left:0;bottom:-1px;width:100%;height:3px;background:var(--primary);transform:translateX(-102%);transition:transform .5s cubic-bezier(.22,1,.36,1)}
+.menu-links a:hover{color:var(--primary);padding-left:14px}
+.menu-links a:hover:after{transform:translateX(0)}
+.menu-links a svg{transition:transform .45s cubic-bezier(.22,1,.36,1),color .3s ease}
+.menu-links a:hover svg{transform:translateX(7px) rotate(-8deg);color:var(--primary)}
 
 /* Focal points keep each service photograph readable across formats. */
 .hero > .service-photo,.image-wrap > .service-photo,.photo-card > .service-photo{object-position:var(--photo-focus,50% 50%)}

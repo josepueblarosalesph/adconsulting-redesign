@@ -26,6 +26,8 @@
 .menu-links a:hover:after{transform:translateX(0)}
 .menu-links a svg{transition:transform .45s cubic-bezier(.22,1,.36,1),color .3s ease}
 .menu-links a:hover svg{transform:translateX(7px) rotate(-8deg);color:var(--primary)}
+.black-card-image img{clip-path:inset(8px round 22px);filter:drop-shadow(0 0 18px rgba(232,119,34,.3)) drop-shadow(0 0 42px rgba(255,255,255,.08));transition:filter .6s ease,transform .8s cubic-bezier(.22,1,.36,1)}
+.black-card-image:hover img{filter:drop-shadow(0 0 24px rgba(232,119,34,.48)) drop-shadow(0 0 55px rgba(255,255,255,.12));transform:translateY(-4px)}
 
 /* Focal points keep each service photograph readable across formats. */
 .hero > .service-photo,.image-wrap > .service-photo,.photo-card > .service-photo{object-position:var(--photo-focus,50% 50%)}

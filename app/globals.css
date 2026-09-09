@@ -44,3 +44,7 @@
 .menu-secondary a:after{content:'';position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--primary);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.22,1,.36,1)}
 .menu-secondary a:hover{color:var(--primary);transform:translateX(6px)}
 .menu-secondary a:hover:after{transform:scaleX(1)}
+
+/* Gradual portrait zoom and color transition */
+.person-image img{transition:transform .9s cubic-bezier(.22,1,.36,1),filter .9s cubic-bezier(.22,1,.36,1)!important;will-change:transform,filter}
+.person:hover .person-image img{transform:scale(1.05)}

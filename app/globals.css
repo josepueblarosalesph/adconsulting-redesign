@@ -48,8 +48,12 @@
 /* Gradual portrait zoom and color transition */
 .person-image img{transition:transform .9s cubic-bezier(.22,1,.36,1),filter .9s cubic-bezier(.22,1,.36,1)!important;will-change:transform,filter}
 .person:hover .person-image img{transform:scale(1.05)}
-.senior-team .person-image img{object-fit:cover!important;object-position:center 3%!important;transform:scale(1.02)}
-.senior-team .person:hover .person-image img{transform:scale(1.07)}
+.senior-team .person-image img{object-fit:cover!important;object-position:center top!important;transform-origin:center top;transform:translateY(var(--portrait-y,0%)) scale(var(--portrait-scale,1))}
+.senior-team .person:nth-child(1){--portrait-scale:1.65;--portrait-y:-10%}
+.senior-team .person:nth-child(2){--portrait-scale:1;--portrait-y:0%}
+.senior-team .person:nth-child(3){--portrait-scale:1.1;--portrait-y:2%}
+.senior-team .person:nth-child(4){--portrait-scale:1.22;--portrait-y:-8%}
+.senior-team .person:hover .person-image img{transform:translateY(var(--portrait-y,0%)) scale(calc(var(--portrait-scale,1) * 1.05))}
 
 /* Strong, visible hover animation inside the sandwich panel */
 .menu-panel .menu-links a{isolation:isolate;transition:transform .45s cubic-bezier(.22,1,.36,1),color .45s ease,background-color .45s ease,padding-left .45s cubic-bezier(.22,1,.36,1)!important}

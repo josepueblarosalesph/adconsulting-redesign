@@ -76,3 +76,11 @@
 .menu-panel .menu-links a:hover{transform:translateX(12px)!important;padding-left:22px!important;color:var(--primary)!important;background:linear-gradient(90deg,rgba(232,119,34,.16),transparent 78%)!important}
 .menu-panel .menu-links a:hover:before{width:4px!important;transform:scaleY(1)!important}
 .menu-panel .menu-links a:hover svg{transform:translateX(8px) rotate(-10deg)!important;color:var(--primary)!important}
+
+/* AD Black: dimensional hover and a restrained moving reflection. */
+.black-card-image{isolation:isolate;perspective:1200px}
+.black-card-image img{display:block;transform:rotateY(0) rotateX(0);transform-origin:center;transition:transform .85s cubic-bezier(.22,1,.36,1),filter .85s ease}
+.black-card-image::after{content:'';position:absolute;inset:45px 0;pointer-events:none;clip-path:inset(8px round 22px);background:linear-gradient(115deg,transparent 25%,rgba(255,255,255,.03) 39%,rgba(255,255,255,.24) 49%,rgba(255,255,255,.04) 59%,transparent 73%);background-size:250% 100%;background-position:160% 0;opacity:0;transition:opacity .7s ease,background-position 1.2s cubic-bezier(.22,1,.36,1),transform .85s cubic-bezier(.22,1,.36,1)}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.black-card-image:hover img{transform:translateY(-7px) rotateY(-5deg) rotateX(3deg);filter:drop-shadow(0 12px 25px rgba(232,119,34,.32)) drop-shadow(0 0 40px rgba(255,255,255,.14))}.black-card-image:hover::after{opacity:1;background-position:-60% 0;transform:translateY(-7px) rotateY(-5deg) rotateX(3deg)}}
+@media(max-width:600px){.black-card-image::after{inset:0}}
+@media(prefers-reduced-motion:reduce){.black-card-image img,.black-card-image::after{transition:none}.black-card-image:hover img{transform:none}}

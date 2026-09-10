@@ -55,6 +55,21 @@
 .senior-team .person:nth-child(4){--portrait-scale:1.22;--portrait-y:-8%}
 .senior-team .person:hover .person-image img{transform:translateY(var(--portrait-y,0%)) scale(calc(var(--portrait-scale,1) * 1.05))}
 
+/* Individual portrait framing: align head size and headroom across the team. */
+.team-section .person-image img{object-position:center top;transform-origin:center top;transform:translate(var(--team-x,0%),var(--team-y,0%)) scale(var(--team-scale,1))}
+.team-section .person:nth-child(1){--team-scale:1.33;--team-y:-22.6%}
+.team-section .person:nth-child(2){--team-scale:1.26;--team-y:-14%;--team-x:-4%}
+.team-section .person:nth-child(3){--team-scale:1.33;--team-y:-11%}
+.team-section .person:nth-child(4){--team-scale:1.2;--team-y:-4%;--team-x:5%}
+.team-section .person:nth-child(5){--team-scale:1.08;--team-y:-5%}
+.team-section .person:nth-child(6){--team-scale:1.23;--team-y:-2.8%;--team-x:4%}
+.team-section .person:nth-child(7){--team-scale:1.33;--team-y:-4%}
+.team-section .person:nth-child(8){--team-scale:1;--team-y:0%}
+.team-section .person:nth-child(9){--team-scale:1.33;--team-y:-8%;--team-x:8%}
+.team-section .person:nth-child(10){--team-scale:1.45;--team-y:-25%}
+.team-section .person:nth-child(11){--team-scale:1.12;--team-y:-10.8%}
+.team-section .person:hover .person-image img{transform:translate(var(--team-x,0%),var(--team-y,0%)) scale(calc(var(--team-scale,1) * 1.05))}
+
 /* Strong, visible hover animation inside the sandwich panel */
 .menu-panel .menu-links a{isolation:isolate;transition:transform .45s cubic-bezier(.22,1,.36,1),color .45s ease,background-color .45s ease,padding-left .45s cubic-bezier(.22,1,.36,1)!important}
 .menu-panel .menu-links a:before{z-index:-1;left:0;top:0;bottom:auto;width:4px;height:100%;transform:scaleY(0);transform-origin:bottom;transition:transform .45s cubic-bezier(.22,1,.36,1)!important}

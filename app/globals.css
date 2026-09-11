@@ -48,6 +48,7 @@
 /* Gradual portrait zoom and color transition */
 .person-image img{transition:transform .9s cubic-bezier(.22,1,.36,1),filter .9s cubic-bezier(.22,1,.36,1)!important;will-change:transform,filter}
 .person:hover .person-image img{transform:scale(1.05)}
+.brand-mark{gap:0}
 .senior-team .person-image img{object-fit:cover!important;object-position:center top!important;transform-origin:center top;transform:translateY(var(--portrait-y,0%)) scale(var(--portrait-scale,1))}
 .senior-team .person:nth-child(1){--portrait-scale:1.65;--portrait-y:-10%}
 .senior-team .person:nth-child(2){--portrait-scale:1;--portrait-y:0%}

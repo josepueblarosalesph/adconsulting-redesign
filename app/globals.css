@@ -125,3 +125,15 @@
 .service-cert .cert-row img{width:180px;height:115px}
 @media(max-width:900px){.service-cert .cert-row{gap:35px}.service-cert .cert-row img{width:140px;height:100px}}
 @media(max-width:600px){.service-cert .cert-row{gap:30px;margin-top:35px}.service-cert .cert-row img{width:100%;height:100px}}
+
+.footer-directory{display:grid;grid-template-columns:1.4fr .9fr 1.3fr 1fr;gap:65px;padding:80px 0 95px}
+.footer-directory .footer-intro .brand svg{width:110px;height:60px}
+.footer-intro p{color:#c4c5c7;font-size:17px;line-height:1.7;margin:30px 0 22px;max-width:340px}
+.footer-intro>a:last-child{font-weight:700;overflow-wrap:anywhere}
+.footer-directory nav{display:flex;flex-direction:column;align-items:flex-start;gap:17px}
+.footer-directory h3{font-size:16px;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);margin:0 0 12px}
+.footer-directory nav a{font-size:17px;font-weight:500;color:#c4c5c7;line-height:1.5;transition:color .3s,transform .3s}
+.footer-directory nav a:hover{color:var(--primary);transform:translateX(4px)}
+.footer-legal{border-top:1px solid #ffffff25;padding:25px 0 10px;color:#b4b5b6;font-size:14px}
+@media(max-width:1000px){.footer-directory{grid-template-columns:1fr 1fr;gap:50px}}
+@media(max-width:600px){.footer-directory{gap:35px 25px;padding:55px 0}.footer-intro{grid-column:1/-1}.footer-directory nav a{font-size:15px}.footer-directory h3{font-size:14px}.footer-intro p{max-width:none}}

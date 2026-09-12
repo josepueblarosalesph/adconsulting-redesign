@@ -120,7 +120,7 @@
 .service-index>a span{font-size:16px;font-weight:700}
 @media(max-width:900px){.service-index>a{font-size:18px;min-width:175px}}
 
-.service-cert{background:#f0f1f2}
+.service-cert{background:#fff}
 .service-cert .cert-row{margin:50px 0 0;gap:65px}
 .service-cert .cert-row img{width:180px;height:115px}
 @media(max-width:900px){.service-cert .cert-row{gap:35px}.service-cert .cert-row img{width:140px;height:100px}}

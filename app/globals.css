@@ -159,3 +159,6 @@
 .contact .eyebrow,.contact .dot{display:none}
 .menu-button{display:none}
 @media(max-width:900px){.menu-button{display:flex}}
+
+.hero-inner .hero-content h1{font-size:clamp(2.8rem,4.2vw,4.4rem);max-width:1000px}
+.hero-inner .hero-description{max-width:650px;font-size:clamp(1rem,1.45vw,1.25rem);line-height:1.55;margin-top:24px;color:#e7e7e7}

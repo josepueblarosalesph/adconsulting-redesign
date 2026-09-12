@@ -156,3 +156,4 @@
 .news-carousel-controls>div button{width:9px;height:9px;border:0;border-radius:50%;background:#ffffff60;cursor:pointer}
 .news-carousel-controls>div button.active{background:var(--primary)}
 @media(max-width:600px){.news-experiences{padding-top:40px}.news-slide{grid-template-columns:1fr}.news-slide>img{height:180px}.news-slide>div{padding:25px;min-height:245px}.news-experiences h1{margin-bottom:30px}}
+.contact .eyebrow,.contact .dot{display:none}

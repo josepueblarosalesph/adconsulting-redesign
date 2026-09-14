@@ -294,6 +294,8 @@
 .senior-intro h2 .accent-line{color:var(--primary)}
 
 .senior-intro h2 .accent-line{display:block;font-size:.82em;line-height:1.08}
+.news-editorial-list .news-image{background:transparent;padding:0;box-shadow:none}
+.news-editorial-list .news-image:after{display:none}
 .action-section .action-lines article{text-align:center}
 .action-section .action-lines article>span{border-right:0;padding-right:0}
 .action-section .action-lines article>h3{justify-content:center;text-align:center;border-right:0;padding-left:0;padding-right:0}

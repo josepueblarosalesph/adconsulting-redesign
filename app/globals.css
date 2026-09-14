@@ -220,3 +220,5 @@
 
 .platform-link .text-link{background:var(--primary);color:#fff;border:0;border-radius:999px;padding:14px 22px;font-weight:700;box-shadow:0 8px 20px rgba(232,119,34,.22);transition:background .25s,transform .25s,box-shadow .25s}
 .platform-link .text-link:hover{background:#f58a35;color:#fff;transform:translateY(-3px);box-shadow:0 12px 26px rgba(232,119,34,.32)}
+.hero-brand-logo{display:block;width:min(270px,42vw);height:auto;max-height:115px;object-fit:contain;object-position:left center;margin-bottom:28px;filter:drop-shadow(0 5px 16px rgba(0,0,0,.3));animation:rise .8s ease both}
+@media(max-width:600px){.hero-brand-logo{width:min(220px,62vw);max-height:90px;margin-bottom:22px}}

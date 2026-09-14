@@ -259,5 +259,7 @@
 @media(max-width:600px){.senior-intro>div:first-child h2{font-size:clamp(2rem,8vw,2.8rem)}.three-statements>div{min-height:160px}.platform-link{gap:16px}}
 .hero-inner{min-height:calc(100svh - 94px)}
 .news-editorial-hero{min-height:calc(100svh - 94px)}
+.news-editorial-hero{align-items:center}
+.news-editorial-hero-content{transform:translateY(-3vh)}
 @media(max-width:900px){.hero-inner,.news-editorial-hero{min-height:calc(100svh - 78px)}}
 @media(max-width:600px){.hero-inner,.news-editorial-hero{min-height:calc(100svh - 74px)}}

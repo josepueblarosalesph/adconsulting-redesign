@@ -174,3 +174,11 @@
 .client-logos h2 strong:before{content:' '}
 .client-logos h2 strong{color:inherit}
 .impact>.benefits-grid{margin-top:0}
+.partners{gap:35px}
+.partners>p{font-size:22px;font-weight:500;color:var(--graphite)}
+.partners>div{min-width:0;gap:25px}
+.partners img{max-width:160px;width:16%;height:64px;opacity:.9}
+.partners img:first-child{max-width:220px;width:24%;height:85px}
+.partners img:last-child{max-width:160px;width:17%;height:85px}
+@media(max-width:900px){.partners>div{flex-wrap:wrap;justify-content:center;gap:24px}.partners img{width:24%;height:64px}.partners img:first-child{width:38%;height:85px}.partners img:last-child{width:24%;height:85px}}
+@media(max-width:600px){.partners>p{font-size:20px}.partners>div{gap:20px}.partners img{width:25%;height:55px}.partners img:first-child{width:43%;height:75px}.partners img:last-child{width:30%;height:75px}}

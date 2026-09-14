@@ -198,10 +198,11 @@
    and the AD Consulting palette replacing the former peach accents. */
 .senior-intro{background:#fff}
 .senior-intro .eyebrow,.senior-intro .three-statements span,.action-lines article>span{color:var(--primary)}
-.three-statements>div{border-top:2px solid var(--primary);padding:28px 24px 30px;background:#fff8f2}
+.three-statements>div{border-top:2px solid var(--primary);padding:28px 24px 30px;background:var(--primary);color:#fff}
+.three-statements>div span{color:#fff}
 .three-statements h3{font-size:clamp(1.45rem,2.1vw,2rem);line-height:1.2;max-width:340px}
 .platform-link{border-top:1px solid #d9d9d9}
-.action-section{background:#fff8f2}
+.action-section{background:#fff}
 .action-section .action-lines article{border-top:1px solid #e877224d;padding:28px 24px;background:var(--primary);color:#fff;margin-top:16px;grid-template-columns:60px 1fr 1.35fr}
 .action-section .action-lines article>span,.action-section .action-lines p{color:#fff}
 .action-section .action-lines h3{font-size:clamp(1.35rem,2vw,1.9rem)}

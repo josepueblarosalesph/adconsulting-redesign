@@ -172,3 +172,4 @@
 .client-logos h2{font-size:clamp(.85rem,3.4vw,2rem);white-space:nowrap}
 .client-logos h2 span,.client-logos h2 strong{display:inline;font-size:inherit;line-height:1.3;margin:0}
 .client-logos h2 strong:before{content:' '}
+.client-logos h2 strong{color:inherit}

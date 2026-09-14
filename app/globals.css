@@ -222,3 +222,5 @@
 .platform-link .text-link:hover{background:#f58a35;color:#fff;transform:translateY(-3px);box-shadow:0 12px 26px rgba(232,119,34,.32)}
 .hero-brand-logo{display:block;width:min(270px,42vw);height:auto;max-height:115px;object-fit:contain;object-position:left center;margin-bottom:28px;filter:drop-shadow(0 5px 16px rgba(0,0,0,.3));animation:rise .8s ease both}
 @media(max-width:600px){.hero-brand-logo{width:min(220px,62vw);max-height:90px;margin-bottom:22px}}
+.approach .comparison article:last-child h3{color:#fff}
+.approach .comparison li>span{color:var(--primary)}

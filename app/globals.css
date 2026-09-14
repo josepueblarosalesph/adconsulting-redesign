@@ -224,3 +224,6 @@
 @media(max-width:600px){.hero-brand-logo{width:min(220px,62vw);max-height:90px;margin-bottom:22px}}
 .approach .comparison article:last-child h3{color:#fff}
 .approach .comparison li>span{color:var(--primary)}
+.loss-grid ul{list-style:none;padding:0;margin:24px 0 0}
+.loss-grid li{position:relative;padding:10px 0 10px 22px;border-top:1px solid #26272918;line-height:1.55;color:#626568}
+.loss-grid li:before{content:'↗';position:absolute;left:0;top:10px;color:var(--primary);font-weight:700}

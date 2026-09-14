@@ -290,3 +290,5 @@
 .action-section .action-lines article>span{color:var(--primary) !important}
 .action-section .action-lines article>h3{color:var(--graphite) !important}
 .action-section .action-lines article>p{color:#626568 !important}
+
+.senior-intro h2 .accent-line{color:var(--primary)}

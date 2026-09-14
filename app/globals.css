@@ -245,14 +245,6 @@
 .action-section .action-lines article>span{display:flex;align-items:center;justify-content:center;font-family:'Nunito',sans-serif;font-size:48px;font-weight:900;line-height:1;border-right:1px solid #ffffff80;padding-right:24px}
 .action-section .action-lines article>h3{display:flex;align-items:center;padding:8px 28px;margin:0;border-right:1px solid #ffffff80}
 .action-section .action-lines article>p{align-self:center;padding:8px 0 8px 28px;margin:0;line-height:1.65}
-.action-section .action-lines article{position:relative}
-.action-section .action-lines article:before{position:absolute;left:24px;top:50%;transform:translateY(-50%);font-size:30px;line-height:1;filter:saturate(.9)}
-.action-section .action-lines article:nth-child(1):before{content:'💼'}
-.action-section .action-lines article:nth-child(2):before{content:'⌘'}
-.action-section .action-lines article:nth-child(3):before{content:'↔'}
-.action-section .action-lines article:nth-child(4):before{content:'◉'}
-.action-section .action-lines article:nth-child(5):before{content:'⌁'}
-.action-section .action-lines article>span:first-child{padding-left:48px}
 .senior-intro>.reveal>.eyebrow{display:none}
 .senior-intro>div:first-child h2{font-size:clamp(1.9rem,3vw,3.1rem)}
 @media(max-width:600px){.action-section .action-lines article{grid-template-columns:64px minmax(0,1fr);padding:24px 20px}.action-section .action-lines article>span{font-size:38px;padding-right:16px}.action-section .action-lines article>h3{border-right:0;padding:4px 0 4px 18px}.action-section .action-lines article>p{grid-column:1/-1;border-top:1px solid #ffffff80;margin-top:20px;padding:20px 0 0}}

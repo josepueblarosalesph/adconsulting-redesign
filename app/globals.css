@@ -217,3 +217,6 @@
 .news-editorial-hero-content{position:relative;z-index:1}
 .news-editorial-hero-content>p:last-child{color:#f0f0f0}
 @media(max-width:600px){.news-editorial-hero{min-height:470px}}
+
+.platform-link .text-link{background:var(--primary);color:#fff;border:0;border-radius:999px;padding:14px 22px;font-weight:700;box-shadow:0 8px 20px rgba(232,119,34,.22);transition:background .25s,transform .25s,box-shadow .25s}
+.platform-link .text-link:hover{background:#f58a35;color:#fff;transform:translateY(-3px);box-shadow:0 12px 26px rgba(232,119,34,.32)}

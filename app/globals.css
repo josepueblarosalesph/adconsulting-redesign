@@ -182,3 +182,4 @@
 .partners img:last-child{max-width:160px;width:17%;height:85px}
 @media(max-width:900px){.partners>div{flex-wrap:wrap;justify-content:center;gap:24px}.partners img{width:24%;height:64px}.partners img:first-child{width:38%;height:85px}.partners img:last-child{width:24%;height:85px}}
 @media(max-width:600px){.partners>p{font-size:20px}.partners>div{gap:20px}.partners img{width:25%;height:55px}.partners img:first-child{width:43%;height:75px}.partners img:last-child{width:30%;height:75px}}
+.benefits-title{font-size:clamp(2rem,3.5vw,3.5rem);line-height:1.15;margin:0 0 45px}

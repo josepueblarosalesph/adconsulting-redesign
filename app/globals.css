@@ -229,3 +229,16 @@
 .loss-grid li{position:relative;padding:10px 0 10px 22px;border-top:1px solid #26272918;line-height:1.55;color:#626568}
 .loss-grid li:before{content:'↗';position:absolute;left:0;top:10px;color:var(--primary);font-weight:700}
 .approach .section-title{font-size:clamp(2rem,3.25vw,3.5rem);line-height:1.12}
+.senior-intro{text-align:center}
+.senior-intro>div:first-child{display:flex;justify-content:center}
+.senior-intro>div:first-child h2{max-width:760px;font-size:clamp(2.15rem,3.5vw,3.65rem);line-height:1.1}
+.three-statements{text-align:center;gap:28px}
+.three-statements>div{position:relative;border:0;border-radius:4px;padding:34px 26px 38px;min-height:180px;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 12px 28px rgba(38,39,41,.12);transition:transform .3s,box-shadow .3s}
+.three-statements>div:after{content:'';position:absolute;inset:0;border:1px solid rgba(255,255,255,.3);border-radius:4px;pointer-events:none}
+.three-statements>div:hover{transform:translateY(-6px);box-shadow:0 18px 34px rgba(38,39,41,.2)}
+.three-statements>div span{font-size:14px;letter-spacing:.08em;margin-bottom:18px}
+.three-statements h3{margin:0;max-width:300px;font-size:clamp(1.35rem,1.9vw,1.8rem)}
+.platform-link{flex-direction:column;align-items:center;text-align:center;gap:20px}
+.platform-link p{max-width:none}
+.platform-link .text-link{margin-top:2px}
+@media(max-width:600px){.senior-intro>div:first-child h2{font-size:clamp(2rem,8vw,2.8rem)}.three-statements>div{min-height:160px}.platform-link{gap:16px}}

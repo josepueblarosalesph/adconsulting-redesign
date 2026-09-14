@@ -292,3 +292,5 @@
 .action-section .action-lines article>p{color:#626568 !important}
 
 .senior-intro h2 .accent-line{color:var(--primary)}
+
+.senior-intro h2 .accent-line{display:block;font-size:.82em;line-height:1.08}

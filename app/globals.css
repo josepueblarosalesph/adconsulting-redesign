@@ -257,3 +257,7 @@
 .senior-intro>div:first-child h2{font-size:clamp(1.9rem,3vw,3.1rem)}
 @media(max-width:600px){.action-section .action-lines article{grid-template-columns:64px minmax(0,1fr);padding:24px 20px}.action-section .action-lines article>span{font-size:38px;padding-right:16px}.action-section .action-lines article>h3{border-right:0;padding:4px 0 4px 18px}.action-section .action-lines article>p{grid-column:1/-1;border-top:1px solid #ffffff80;margin-top:20px;padding:20px 0 0}}
 @media(max-width:600px){.senior-intro>div:first-child h2{font-size:clamp(2rem,8vw,2.8rem)}.three-statements>div{min-height:160px}.platform-link{gap:16px}}
+.hero-inner{min-height:calc(100svh - 94px)}
+.news-editorial-hero{min-height:calc(100svh - 94px)}
+@media(max-width:900px){.hero-inner,.news-editorial-hero{min-height:calc(100svh - 78px)}}
+@media(max-width:600px){.hero-inner,.news-editorial-hero{min-height:calc(100svh - 74px)}}

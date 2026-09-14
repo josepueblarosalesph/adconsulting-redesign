@@ -184,3 +184,20 @@
 @media(max-width:600px){.partners>p{font-size:20px}.partners>div{gap:20px}.partners img{width:25%;height:55px}.partners img:first-child{width:43%;height:75px}.partners img:last-child{width:30%;height:75px}}
 .benefits-title{font-size:clamp(2rem,3.5vw,3.5rem);line-height:1.15;margin:0 0 45px}
 .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.hero-actions .button{border-radius:999px;background:var(--primary);color:#fff;font-size:17px;font-weight:700;padding:16px 24px;transition:transform .3s,background .3s}.hero-actions .button:hover{background:#f28a3d;color:#fff;transform:translateY(-3px)}
+
+/* AD+50 follows the original page rhythm: clear editorial blocks, generous spacing,
+   and the AD Consulting palette replacing the former peach accents. */
+.senior-intro{background:#fff}
+.senior-intro .eyebrow,.senior-intro .three-statements span,.action-lines article>span{color:var(--primary)}
+.three-statements>div{border-top:2px solid var(--primary);padding:28px 24px 30px;background:#fff8f2}
+.three-statements h3{font-size:clamp(1.45rem,2.1vw,2rem);line-height:1.2;max-width:340px}
+.platform-link{border-top:1px solid #d9d9d9}
+.action-section{background:#fff8f2}
+.action-section .action-lines article{border-top:1px solid #e877224d;padding:28px 24px;background:var(--primary);color:#fff;margin-top:16px;grid-template-columns:60px 1fr 1.35fr}
+.action-section .action-lines article>span,.action-section .action-lines p{color:#fff}
+.action-section .action-lines h3{font-size:clamp(1.35rem,2vw,1.9rem)}
+.approach{background:var(--graphite)}
+.loss-grid article{border-top-color:var(--primary)}
+.senior-team{background:#f3f3f2}
+.senior-team .lead,.senior-intro .lead{color:#626568}
+@media(max-width:600px){.three-statements>div{padding:24px 20px}.action-section .action-lines article{grid-template-columns:30px 1fr;padding:24px 20px}.action-section .action-lines p{grid-column:2}}

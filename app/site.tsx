@@ -18,6 +18,7 @@ const photos = [
   {file:'adconsulting-web5.jpeg',alt:'Sesión de orientación y acompañamiento profesional',focus:'48% 45%',mobile:'35% 45%'},
   {file:'adconsulting-web12.jpeg',alt:'Profesional participando en una sesión de formación a distancia',focus:'52% 45%',mobile:'40% 45%'},
   {file:'adconsulting-web14.jpeg',alt:'Mesa preparada para una reunión de asesoría',focus:'60% 55%',mobile:'70% 55%'},
+  {file:'home-team.webp',alt:'Equipo AD Consulting',focus:'50% 75%',mobile:'50% 75%'},
 ];
 const clientLogos = ['aco.9bb88454.webp','altos_valle.920bb7b9.webp','arauco.e142d465.webp','avicola_chequen.39b7b6b5.webp','biodiversa.24c5745c.webp','blumar.d36b0385.webp','clinica_andes.52b94335.webp','clinica_biobio.5640ab5d.webp','cmp.85632906.webp','corp_masonica.503ae9de.webp','cpc_biobio.1e1597e3.webp','dpc.bcbccdf2.webp','ds.1ac56f73.webp','eo.3afe284b.webp','estadio_espanol.3b05e6da.webp','grupo_avanza.d99b2b45.webp','isla_maquinarias.0d4de502.webp','itahue.c7ec7b65.webp','leon.6fe82453.webp','masonite.58973ced.webp','mnk.8c4e1ca2.webp','molycop.07b592f5.webp','mvc.9ce61772.webp','orizon.7c7badc9.webp','pinares.63214379.webp','puerto_coronel.0de52f08.webp','san_vicente.e850cae0.webp','sanatorio_aleman.067f550c.webp','santa_blanca.94159c9a.webp','setop.adfdef7e.webp','udd.b9000488.webp','uss.48e6c981.webp','ust.e50ce338.webp','valmar.92e8d890.webp'];
 function photoStyle(index:number){return {'--photo-focus':photos[index].focus,'--photo-focus-mobile':photos[index].mobile} as import('react').CSSProperties}

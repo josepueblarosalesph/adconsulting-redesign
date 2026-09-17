@@ -202,6 +202,8 @@
 .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.hero-actions .button{border-radius:999px;background:var(--primary);color:#fff;font-size:17px;font-weight:700;padding:16px 24px;transition:transform .3s,background .3s}.hero-actions .button:hover{background:#f28a3d;color:#fff;transform:translateY(-3px)}
 
 .team-grid .person{border:0;background:none;padding:0;text-align:left;color:inherit;cursor:pointer;width:100%;font:inherit}
+.team-grid .person{text-align:center}
+.team-grid .person-image{width:75%;margin:0 auto 18px}
 .team-grid .person:focus-visible{outline:3px solid var(--primary);outline-offset:8px}
 .team-modal-backdrop{position:fixed;inset:0;z-index:100;background:rgba(20,21,22,.72);display:grid;place-items:center;padding:28px;animation:modal-fade .25s ease both}
 .team-modal{position:relative;display:grid;grid-template-columns:minmax(280px,1fr) minmax(340px,1fr);gap:64px;align-items:center;width:min(1050px,100%);max-height:min(720px,calc(100vh - 56px));overflow:auto;background:#fff;border-radius:10px;padding:62px 74px;color:var(--graphite);box-shadow:0 24px 80px #0006;animation:modal-rise .35s cubic-bezier(.22,1,.36,1) both}

@@ -390,3 +390,6 @@
 .service-carousel-controls>div{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);z-index:3;pointer-events:auto;background:rgba(255,255,255,.9);padding:9px 13px;border-radius:30px}
 .service-active-detail{padding-top:64px}
 @media(max-width:700px){.service-carousel-slide .service-detail,.service-carousel-slide .service-detail .service-copy{min-height:560px}.service-carousel-controls>button:first-child{left:12px}.service-carousel-controls>button:last-child{right:12px}.service-carousel-controls>div{bottom:16px}.service-active-detail{padding-top:42px}}
+.senior-feature-logo{width:min(260px,42vw);height:auto;object-fit:contain;object-position:left center;margin-bottom:12px}
+.senior-feature .feature-copy>p:not(.eyebrow){text-align:justify;margin-top:0}
+@media(max-width:600px){.senior-feature-logo{width:210px;margin-bottom:10px}}

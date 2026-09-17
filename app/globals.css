@@ -341,5 +341,5 @@
 
 .home-video{background:#fff;padding:56px 7% 20px}.home-video-inner{max-width:1180px;margin:0 auto;aspect-ratio:16/9;overflow:hidden;background:#f3f3f3}.home-video iframe{width:100%;height:100%;border:0;display:block}@media(max-width:600px){.home-video{padding:36px 5% 10px}}
 
-.home-hero .hero-content{padding-bottom:150px}.home-hero h1{font-size:clamp(2.6rem,4.2vw,4.5rem);max-width:850px}.home-hero .hero-description{margin-top:18px;max-width:620px}@media(max-width:600px){.home-hero .hero-content{padding-bottom:130px}.home-hero h1{font-size:clamp(2.3rem,8vw,3.2rem)}}
+.home-hero .hero-content{position:absolute;left:0;bottom:118px;padding:0 7%;width:100%}.home-hero h1{font-size:clamp(2.6rem,4.2vw,4.5rem);max-width:850px}.home-hero .hero-description{margin-top:18px;max-width:620px}@media(max-width:600px){.home-hero .hero-content{bottom:88px;padding:0 7%}.home-hero h1{font-size:clamp(2.3rem,8vw,3.2rem)}}
 .home-hero:after{background:linear-gradient(0deg,rgba(0,0,0,.88) 0%,rgba(0,0,0,.52) 35%,rgba(0,0,0,.12) 65%,rgba(0,0,0,0) 82%)}

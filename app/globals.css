@@ -408,7 +408,7 @@
 .service-active-detail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 72px;padding:52px 7% 72px}
 .service-detail-full .service-detail{display:block;min-height:0;margin:0;background:#fff;color:var(--graphite);overflow:visible}
 .service-detail-full .service-detail .image-wrap{display:none}
-.service-detail-full .service-detail .service-copy{min-height:0;padding:42px 0;background:#fff;color:var(--graphite);max-width:none;border-top:1px solid #dedede}
+.service-detail-full .service-detail .service-copy{min-height:0;padding:22px 0;background:#fff;color:var(--graphite);max-width:none;border-top:1px solid #dedede}
 .service-detail-full .service-detail .service-copy h2{color:var(--graphite);font-size:clamp(2rem,3vw,3.4rem)}
 .service-detail-full .service-detail .service-copy p:not(.eyebrow){color:#626568;max-width:none}
 .service-detail-full:nth-child(1){order:1}

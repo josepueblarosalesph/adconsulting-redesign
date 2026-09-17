@@ -410,3 +410,8 @@
 @media(max-width:700px){.service-carousel-controls{height:560px}.service-detail-full .service-detail{display:block}.service-detail-full .service-detail .service-copy{padding:34px 0}.service-detail-full .service-detail .service-copy h2{font-size:30px}}
 .problem-section>.lead{font-size:clamp(2rem,3.2vw,3.35rem);line-height:1.1;max-width:860px}
 @media(max-width:600px){.problem-section>.lead{font-size:clamp(2rem,8vw,2.8rem)}}
+.service-carousel-window{position:relative;z-index:1}
+.service-carousel-controls{position:absolute!important;top:0!important;bottom:auto!important;left:0!important;right:0!important;height:650px!important;z-index:20!important;pointer-events:none!important}
+.service-carousel-controls>button{z-index:21!important;pointer-events:auto!important}
+.service-carousel-controls>div{z-index:21!important;pointer-events:auto!important}
+@media(max-width:700px){.service-carousel-controls{height:560px!important}}

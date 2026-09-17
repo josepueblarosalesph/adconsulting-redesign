@@ -408,3 +408,5 @@
 .service-detail-full .service-detail .service-copy h2{color:var(--graphite);font-size:clamp(2rem,3vw,3.4rem)}
 .service-detail-full .service-detail .service-copy p:not(.eyebrow){color:#626568;max-width:720px}
 @media(max-width:700px){.service-carousel-controls{height:560px}.service-detail-full .service-detail{display:block}.service-detail-full .service-detail .service-copy{padding:34px 0}.service-detail-full .service-detail .service-copy h2{font-size:30px}}
+.problem-section>.lead{font-size:clamp(2rem,3.2vw,3.35rem);line-height:1.1;max-width:860px}
+@media(max-width:600px){.problem-section>.lead{font-size:clamp(2rem,8vw,2.8rem)}}

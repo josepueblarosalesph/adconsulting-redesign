@@ -310,3 +310,14 @@
 .home-services-feature .image-wrap{position:absolute;inset:0;min-height:0}
 .home-services-feature .feature-copy{position:relative;z-index:1;margin-left:50%;width:50%;min-height:650px;box-sizing:border-box;padding:80px 7% 80px 10%;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(90deg,rgba(38,39,41,0),rgba(38,39,41,.88) 22%,rgba(38,39,41,.98) 62%)}
 @media(max-width:900px){.home-services-feature{min-height:0}.home-services-feature .image-wrap{position:relative;min-height:420px}.home-services-feature .feature-copy{margin-left:0;width:100%;min-height:0;padding:55px 7%;background:var(--graphite)}}
+
+/* Service cards */
+.service-detail{position:relative;display:block;min-height:620px;margin:0 7% 28px;overflow:hidden;background:var(--graphite);color:#fff}
+.service-detail .image-wrap{position:absolute;inset:0;min-height:0}
+.service-detail .image-wrap:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,21,22,.96),rgba(20,21,22,.18) 68%,rgba(20,21,22,.04))}
+.service-detail .service-copy{position:relative;z-index:1;min-height:620px;box-sizing:border-box;padding:90px 8% 70px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(0deg,rgba(20,21,22,.3),transparent 60%)}
+.service-detail .service-copy h2{font-size:clamp(2.4rem,4vw,4.8rem);max-width:760px;color:#fff;margin:10px 0 20px}
+.service-detail .service-copy p:not(.eyebrow){max-width:720px;color:#f2f2f2;font-size:clamp(1rem,1.4vw,1.25rem);line-height:1.6}
+.service-detail .service-copy .eyebrow{color:var(--primary)}
+.service-detail .service-copy .text-link{color:#fff;margin-top:25px;width:max-content}
+@media(max-width:700px){.service-detail{margin:0 5% 20px;min-height:520px}.service-detail .service-copy{min-height:520px;padding:45px 7%}.service-detail .service-copy h2{font-size:2.4rem}.service-detail .service-copy p:not(.eyebrow){font-size:1rem}}

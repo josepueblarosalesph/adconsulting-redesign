@@ -342,6 +342,7 @@
 @media(max-width:700px){.service-carousel{padding:0 0 45px}.service-carousel-slide{padding:0}.service-carousel-slide .service-detail,.service-carousel-slide .service-detail .service-copy{min-height:560px}}
 
 .home-video{background:#fff;padding:56px 7% 20px}.home-video-inner{max-width:1180px;margin:0 auto;aspect-ratio:16/9;overflow:hidden;background:#f3f3f3}.home-video iframe{width:100%;height:100%;border:0;display:block}@media(max-width:600px){.home-video{padding:36px 5% 10px}}
+.home-video + .impact{padding-top:30px}
 
 .home-hero .hero-content{position:absolute;left:0;bottom:72px;padding:0 7%;width:100%}.home-hero h1{font-size:clamp(2.6rem,4.2vw,4.5rem);max-width:850px}.home-hero .hero-description{margin-top:18px;max-width:620px}@media(max-width:600px){.home-hero .hero-content{bottom:54px;padding:0 7%}.home-hero h1{font-size:clamp(2.3rem,8vw,3.2rem)}}
 .home-hero:after{background:linear-gradient(90deg,rgba(0,0,0,.8),rgba(0,0,0,.35) 65%,rgba(0,0,0,.14)),linear-gradient(0deg,rgba(0,0,0,.45),transparent 35%)}

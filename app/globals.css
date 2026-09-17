@@ -373,3 +373,8 @@
 .ad50-hero .button{font-size:18px;gap:18px}
 .ad50-hero .button svg{display:none}
 @media(max-width:600px){.ad50-hero .button{font-size:16px}}
+/* Softer hero overlays across the site */
+.hero:after{background:linear-gradient(90deg,rgba(0,0,0,.62),rgba(0,0,0,.24) 65%,rgba(0,0,0,.08)),linear-gradient(0deg,rgba(0,0,0,.28),transparent 35%)}
+.news-editorial-hero:after{background:linear-gradient(90deg,rgba(0,0,0,.68),rgba(0,0,0,.32) 58%,rgba(0,0,0,.12)),linear-gradient(0deg,rgba(0,0,0,.45),rgba(0,0,0,.04) 72%)}
+.black-page .hero:after{background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.3)),linear-gradient(0deg,rgba(29,30,32,.5),transparent 50%)}
+@media(max-width:600px){.hero:after{background:linear-gradient(90deg,rgba(0,0,0,.7),rgba(0,0,0,.28)),linear-gradient(0deg,rgba(0,0,0,.42),transparent)}.news-editorial-hero:after{background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.3)),linear-gradient(0deg,rgba(0,0,0,.5),transparent)}}

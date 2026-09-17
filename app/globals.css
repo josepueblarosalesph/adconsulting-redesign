@@ -393,3 +393,7 @@
 .senior-feature-logo{width:min(260px,42vw);height:auto;object-fit:contain;object-position:left center;margin-bottom:12px}
 .senior-feature .feature-copy>p:not(.eyebrow){text-align:justify;margin-top:0}
 @media(max-width:600px){.senior-feature-logo{width:210px;margin-bottom:10px}}
+.problem-section .problem-eyebrow{font-size:22px;color:var(--primary);letter-spacing:.08em;margin-bottom:22px}
+.problem-section .section-title{font-size:clamp(2rem,3.2vw,3.35rem);max-width:860px}
+.problem-section>.lead{font-size:18px;line-height:1.6;margin-top:20px}
+@media(max-width:600px){.problem-section .problem-eyebrow{font-size:18px}.problem-section>.lead{font-size:17px}}

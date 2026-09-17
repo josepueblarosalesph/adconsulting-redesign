@@ -13,7 +13,7 @@ const photos = [
   {file:'adconsulting-web9.jpeg',alt:'Profesional con una carpeta en un entorno empresarial',focus:'50% 35%',mobile:'50% 35%'},
   {file:'adconsulting-web10.jpeg',alt:'Sesión de capacitación presencial con un grupo de profesionales',focus:'58% 40%',mobile:'63% 40%'},
   {file:'adconsulting-web3.jpeg',alt:'Entrevista de selección con revisión de antecedentes',focus:'50% 45%',mobile:'64% 45%'},
-  {file:'adconsulting-web6.jpeg',alt:'Conversación individual de acompañamiento y desarrollo',focus:'50% 40%',mobile:'35% 40%'},
+  {file:'coaching.webp',alt:'Sesión de coaching ejecutivo',focus:'50% 48%',mobile:'50% 42%'},
   {file:'adconsulting-web5.jpeg',alt:'Sesión de orientación y acompañamiento profesional',focus:'48% 45%',mobile:'35% 45%'},
   {file:'adconsulting-web12.jpeg',alt:'Profesional participando en una sesión de formación a distancia',focus:'52% 45%',mobile:'40% 45%'},
   {file:'adconsulting-web14.jpeg',alt:'Mesa preparada para una reunión de asesoría',focus:'60% 55%',mobile:'70% 55%'},

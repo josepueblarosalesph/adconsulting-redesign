@@ -402,11 +402,11 @@
 .service-carousel-controls>button{top:50%}
 .service-carousel-controls>div{bottom:20px}
 .service-active-detail{display:flex;flex-direction:column;gap:0}
-.service-detail-full .service-detail{display:grid;grid-template-columns:1fr 1fr;min-height:0;margin:0;background:#fff;color:var(--graphite);overflow:visible}
+.service-detail-full .service-detail{display:block;min-height:0;margin:0;background:#fff;color:var(--graphite);overflow:visible}
 .service-detail-full .service-detail .image-wrap{display:none}
-.service-detail-full .service-detail .service-copy{min-height:0;padding:48px 8%;background:#fff;color:var(--graphite)}
+.service-detail-full .service-detail .service-copy{min-height:0;padding:48px 7%;background:#fff;color:var(--graphite);max-width:none}
 .service-detail-full .service-detail .service-copy h2{color:var(--graphite);font-size:clamp(2rem,3vw,3.4rem)}
-.service-detail-full .service-detail .service-copy p:not(.eyebrow){color:#626568;max-width:720px}
+.service-detail-full .service-detail .service-copy p:not(.eyebrow){color:#626568;max-width:none}
 @media(max-width:700px){.service-carousel-controls{height:560px}.service-detail-full .service-detail{display:block}.service-detail-full .service-detail .service-copy{padding:34px 0}.service-detail-full .service-detail .service-copy h2{font-size:30px}}
 .problem-section>.lead{font-size:clamp(2rem,3.2vw,3.35rem);line-height:1.1;max-width:860px}
 @media(max-width:600px){.problem-section>.lead{font-size:clamp(2rem,8vw,2.8rem)}}

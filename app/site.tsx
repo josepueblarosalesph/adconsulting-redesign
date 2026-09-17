@@ -9,7 +9,7 @@ import type {ReactNode} from 'react';
 const photos = [
   {file:'adconsulting-web11.jpeg',alt:'Conversación de asesoría profesional en una oficina',focus:'50% 45%',mobile:'35% 45%'},
   {file:'adconsulting-web7.jpeg',alt:'Equipo participando en una sesión de trabajo colaborativo',focus:'50% 40%',mobile:'63% 40%'},
-  {file:'home-services.webp',alt:'Profesional trabajando en una oficina',focus:'65% 50%',mobile:'58% 50%'},
+  {file:'home-services.webp',alt:'Profesional trabajando en una oficina',focus:'75% 35%',mobile:'68% 35%'},
   {file:'adconsulting-web8.jpeg',alt:'Profesionales conversando sobre una trayectoria laboral',focus:'50% 40%',mobile:'32% 40%'},
   {file:'adconsulting-web9.jpeg',alt:'Profesional con una carpeta en un entorno empresarial',focus:'50% 35%',mobile:'50% 35%'},
   {file:'adconsulting-web10.jpeg',alt:'Sesión de capacitación presencial con un grupo de profesionales',focus:'58% 40%',mobile:'63% 40%'},

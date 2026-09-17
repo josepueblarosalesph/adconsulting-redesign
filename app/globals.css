@@ -321,3 +321,8 @@
 .service-detail .service-copy .eyebrow{color:var(--primary)}
 .service-detail .service-copy .text-link{color:#fff;margin-top:25px;width:max-content}
 @media(max-width:700px){.service-detail{margin:0 5% 20px;min-height:520px}.service-detail .service-copy{min-height:520px;padding:45px 7%}.service-detail .service-copy h2{font-size:2.4rem}.service-detail .service-copy p:not(.eyebrow){font-size:1rem}}
+.service-cards{display:flex;gap:28px;overflow-x:auto;padding:20px 7% 80px;scroll-snap-type:x mandatory;scrollbar-width:none;background:#f7f7f5}
+.service-cards::-webkit-scrollbar{display:none}
+.service-cards .service-detail{flex:0 0 min(38vw,520px);width:auto;margin:0;min-height:650px;scroll-snap-align:start;border-radius:0}
+.service-cards .service-detail .service-copy{min-height:650px;padding:80px 9% 60px}
+@media(max-width:700px){.service-cards{gap:18px;padding:15px 5% 55px}.service-cards .service-detail{flex-basis:82vw;min-height:560px}.service-cards .service-detail .service-copy{min-height:560px}}

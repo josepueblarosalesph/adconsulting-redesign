@@ -411,6 +411,8 @@
 .service-detail-full .service-detail .service-copy{min-height:0;padding:42px 0;background:#fff;color:var(--graphite);max-width:none;border-top:1px solid #dedede}
 .service-detail-full .service-detail .service-copy h2{color:var(--graphite);font-size:clamp(2rem,3vw,3.4rem)}
 .service-detail-full .service-detail .service-copy p:not(.eyebrow){color:#626568;max-width:none}
+.service-detail-full:nth-child(3){order:4}
+.service-detail-full:nth-child(4){order:3}
 @media(max-width:700px){.service-carousel-controls{height:560px}.service-active-detail{display:block;padding:38px 7% 52px}.service-detail-full .service-detail{display:block}.service-detail-full .service-detail .service-copy{padding:34px 0}.service-detail-full .service-detail .service-copy h2{font-size:30px}}
 .problem-section>.lead{font-size:clamp(2rem,3.2vw,3.35rem);line-height:1.1;max-width:860px}
 @media(max-width:600px){.problem-section>.lead{font-size:clamp(2rem,8vw,2.8rem)}}

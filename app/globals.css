@@ -230,6 +230,7 @@
 .approach{background:var(--graphite)}
 .loss-grid article{border-top-color:var(--primary)}
 .senior-team{background:#f3f3f2}
+.senior-team{padding-top:60px}
 .senior-team .lead,.senior-intro .lead{color:#626568}
 @media(max-width:600px){.three-statements>div{padding:24px 20px}.action-section .action-lines article{grid-template-columns:30px 1fr;padding:24px 20px}.action-section .action-lines p{grid-column:2}}
 

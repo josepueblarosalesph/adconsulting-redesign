@@ -350,6 +350,7 @@
 .service-slide-summary{display:none}
 .service-slide-card .service-detail .service-copy .service-slide-summary{display:block}
 .service-slide-card .service-detail .service-copy>p:not(.service-slide-summary){display:none}
+.service-carousel-slide:nth-child(n+3) .service-detail .service-copy{padding-bottom:35px}
 .service-active-detail{padding:56px 7% 70px;background:#fff}
 .service-active-detail .service-detail{display:grid;grid-template-columns:1fr 1fr;min-height:0;margin:0;background:#fff;color:var(--graphite);overflow:visible}
 .service-active-detail .service-detail .image-wrap{display:none}
@@ -427,6 +428,7 @@
 .service-detail-full:nth-child(4){order:5}
 .service-detail-full:nth-child(5){order:4}
 @media(max-width:700px){.service-carousel-controls{height:560px}.service-active-detail{display:block;padding:38px 7% 52px}.service-detail-full .service-detail{display:block}.service-detail-full .service-detail .service-copy{padding:34px 0}.service-detail-full .service-detail .service-copy h2{font-size:30px}}
+@media(max-width:700px){.service-carousel-slide:nth-child(n+3) .service-detail .service-copy{padding-bottom:25px}}
 .problem-section>.lead{font-size:clamp(2rem,3.2vw,3.35rem);line-height:1.1;max-width:860px}
 @media(max-width:600px){.problem-section>.lead{font-size:clamp(2rem,8vw,2.8rem)}}
 .service-carousel-window{position:relative;z-index:1}

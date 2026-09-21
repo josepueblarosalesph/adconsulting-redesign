@@ -74,6 +74,10 @@
 .team-section .person:nth-child(11){--team-scale:1.12;--team-y:-10.8%}
 .team-section .person:hover .person-image img{transform:translate(var(--team-x,0%),var(--team-y,0%)) scale(calc(var(--team-scale,1) * 1.05))}
 
+/* Mobile menu type scale */
+.menu-panel .menu-links a{font-size:clamp(21px,3vw,34px)}
+@media(max-width:600px){.menu-panel .menu-links a{font-size:23px}}
+
 /* Strong, visible hover animation inside the sandwich panel */
 .menu-panel .menu-links a{isolation:isolate;transition:transform .45s cubic-bezier(.22,1,.36,1),color .45s ease,background-color .45s ease,padding-left .45s cubic-bezier(.22,1,.36,1)!important}
 .menu-panel .menu-links a:before{z-index:-1;left:0;top:0;bottom:auto;width:4px;height:100%;transform:scaleY(0);transform-origin:bottom;transition:transform .45s cubic-bezier(.22,1,.36,1)!important}

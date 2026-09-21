@@ -171,7 +171,7 @@
 @media(max-width:600px){.news-editorial-hero{padding:75px 7% 60px}.news-editorial-hero h1{font-size:clamp(2.8rem,11vw,4rem)}.news-editorial-list{padding-top:60px}.news-editorial-heading{display:block;margin-bottom:35px}.news-editorial-heading h2{margin-top:15px}.news-editorial-list .news-grid{grid-template-columns:1fr;gap:40px}}
 
 /* Editorial story cards for Noticias */
-.news-editorial-heading{display:block;max-width:900px;margin:0 auto 52px;border:0;padding:0;text-align:left}
+.news-editorial-heading{display:block;max-width:none;margin:0 0 52px;border:0;padding:0;text-align:left}
 .news-editorial-heading .eyebrow{color:var(--primary);margin-bottom:14px}
 .news-editorial-heading h2{font-size:clamp(2rem,3.5vw,3.6rem);max-width:none}
 .news-editorial-list .news-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:48px 28px}

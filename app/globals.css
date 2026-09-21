@@ -436,6 +436,9 @@
 @media(max-width:700px){.service-carousel-slide:nth-child(n+3) .service-detail .service-copy{padding-bottom:25px}}
 @media(max-width:700px){.service-slide-card .service-detail .image-wrap{max-height:none;height:auto}}
 @media(max-width:700px){.service-slide-card .service-detail .service-copy h2{min-height:3.24em;display:flex;align-items:flex-end}.service-slide-card .service-detail .service-slide-summary{min-height:8em}}
+
+/* Keep every mobile service heading on the same baseline. */
+@media(max-width:700px){.service-slide-card .service-detail .service-copy{justify-content:flex-start;padding:245px 7% 25px!important}.service-slide-card .service-detail .service-copy h2{flex:0 0 3.24em;margin:0 0 20px}.service-slide-card .service-detail .service-slide-summary{flex:0 0 8em;margin:0}}
 .problem-section>.lead{font-size:clamp(2rem,3.2vw,3.35rem);line-height:1.1;max-width:860px}
 @media(max-width:600px){.problem-section>.lead{font-size:clamp(2rem,8vw,2.8rem)}}
 .service-carousel-window{position:relative;z-index:1}

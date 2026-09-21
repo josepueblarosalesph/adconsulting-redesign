@@ -429,6 +429,7 @@
 .service-detail-full:nth-child(5){order:4}
 @media(max-width:700px){.service-carousel-controls{height:560px}.service-active-detail{display:block;padding:38px 7% 52px}.service-detail-full .service-detail{display:block}.service-detail-full .service-detail .service-copy{padding:34px 0}.service-detail-full .service-detail .service-copy h2{font-size:30px}}
 @media(max-width:700px){.service-slide-card .service-detail .service-copy{padding-bottom:25px}}
+@media(max-width:700px){.service-carousel-slide:nth-child(n+3) .service-detail .service-copy{padding-bottom:25px}}
 @media(max-width:700px){.service-slide-card .service-detail .image-wrap{max-height:none;height:auto}}
 @media(max-width:700px){.service-slide-card .service-detail .service-copy h2{min-height:3.24em;display:flex;align-items:flex-end}.service-slide-card .service-detail .service-slide-summary{min-height:8em}}
 .problem-section>.lead{font-size:clamp(2rem,3.2vw,3.35rem);line-height:1.1;max-width:860px}

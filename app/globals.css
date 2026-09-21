@@ -347,6 +347,9 @@
 .service-slide-card .service-detail{min-height:620px}
 .service-slide-card .service-detail .service-copy{min-height:620px}
 .service-slide-card .service-detail .service-copy p:not(.eyebrow):not(:first-of-type),.service-slide-card .service-detail .service-copy .text-link,.service-slide-card .service-detail .service-copy .service-note{display:none}
+.service-slide-summary{display:none}
+.service-slide-card .service-detail .service-copy .service-slide-summary{display:block}
+.service-slide-card .service-detail .service-copy>p:not(.service-slide-summary){display:none}
 .service-active-detail{padding:56px 7% 70px;background:#fff}
 .service-active-detail .service-detail{display:grid;grid-template-columns:1fr 1fr;min-height:0;margin:0;background:#fff;color:var(--graphite);overflow:visible}
 .service-active-detail .service-detail .image-wrap{display:none}
@@ -413,6 +416,7 @@
 .service-detail-full .service-detail .service-copy{min-height:0;padding:22px 0;background:#fff;color:var(--graphite);max-width:none;border-top:1px solid #dedede}
 .service-detail-full .service-detail .service-copy h2{color:var(--graphite);font-size:clamp(2rem,3vw,3.4rem)}
 .service-detail-full .service-detail .service-copy p:not(.eyebrow){color:#626568;max-width:none}
+.service-detail-full .service-slide-summary{display:none}
 .service-detail-full .service-detail .service-copy .text-link{color:var(--graphite);margin-top:24px;width:max-content}
 .service-partner{margin:24px 0 16px}
 .service-partner-logo{display:block;width:auto;max-width:190px;height:52px;object-fit:contain;object-position:left center}

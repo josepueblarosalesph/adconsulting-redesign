@@ -85,6 +85,12 @@
 .menu-panel .menu-links a:hover:before{width:4px!important;transform:scaleY(1)!important}
 .menu-panel .menu-links a:hover svg{transform:translateX(8px) rotate(-10deg)!important;color:var(--primary)!important}
 
+/* News cards: show each publication image without cropping. */
+.news-editorial-list .news-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.news-editorial-list .news-image img{object-fit:contain}
+@media(max-width:900px){.news-editorial-list .news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.news-editorial-list .news-grid{grid-template-columns:1fr}.news-editorial-list .news-image{aspect-ratio:auto}.news-editorial-list .news-image img{height:auto;display:block}}
+
 /* AD Black: dimensional hover and a restrained moving reflection. */
 .black-card-image{isolation:isolate;perspective:1200px}
 .black-card-image img{display:block;transform:rotateY(0) rotateX(0);transform-origin:center;transition:transform .85s cubic-bezier(.22,1,.36,1),filter .85s ease}

@@ -187,6 +187,8 @@
 .news-editorial-list .news-card .eyebrow{font-size:11px;color:var(--primary);margin:0 0 12px;letter-spacing:.1em}
 .news-editorial-list .news-card h3{font-size:clamp(1.35rem,2vw,1.8rem);line-height:1.22;margin:0 0 20px}
 .news-editorial-list .news-card .text-link{font-weight:700;border-bottom:2px solid var(--primary);padding-bottom:5px}
+.news-editorial-list .news-card{display:flex;flex-direction:column;height:100%}
+.news-editorial-list .news-card .text-link{margin-top:auto;align-self:flex-start}
 @media(max-width:900px){.news-editorial-list .news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.news-editorial-heading{margin-bottom:35px}.news-editorial-list .news-grid{grid-template-columns:1fr;gap:42px}.news-editorial-list .news-image{padding:10px}.news-editorial-list .news-image:after{left:10px;top:10px}}
 .client-logos h2{font-size:clamp(.85rem,3.4vw,2rem);white-space:nowrap}

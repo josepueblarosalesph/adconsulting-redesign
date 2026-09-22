@@ -460,3 +460,8 @@
 .news-editorial-list .news-image{display:flex;align-items:center;justify-content:center;overflow:visible}
 .news-editorial-list .news-image img{width:100%;height:100%;object-fit:contain!important;transform:none!important}
 @media(max-width:600px){.news-editorial-list .news-image{aspect-ratio:auto}.news-editorial-list .news-image img{height:auto}}
+
+/* Uniform square news covers keep the card content aligned. */
+.news-editorial-list .news-image{display:block;aspect-ratio:1/1;overflow:hidden;background:#f1f1f1}
+.news-editorial-list .news-image img{display:block;width:100%;height:100%;object-fit:cover!important;object-position:center;transform:none!important}
+@media(max-width:600px){.news-editorial-list .news-image{aspect-ratio:1/1}.news-editorial-list .news-image img{height:100%}}

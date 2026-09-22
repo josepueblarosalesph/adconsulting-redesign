@@ -465,3 +465,8 @@
 .news-editorial-list .news-image{display:block;aspect-ratio:1/1;overflow:hidden;background:#f1f1f1}
 .news-editorial-list .news-image img{display:block;width:100%;height:100%;object-fit:cover!important;object-position:center;transform:none!important}
 @media(max-width:600px){.news-editorial-list .news-image{aspect-ratio:1/1}.news-editorial-list .news-image img{height:100%}}
+
+/* Keep the home services portrait complete and fade it into the light background. */
+.home-services-feature .image-wrap{background:#fff}
+.home-services-feature .image-wrap>img{object-fit:contain;object-position:left center;transform:none!important}
+.home-services-feature .image-wrap:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 42%,rgba(255,255,255,.3) 54%,#fff 76%);pointer-events:none}

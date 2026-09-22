@@ -455,3 +455,8 @@
 .service-carousel-controls>div{z-index:21!important;pointer-events:auto!important}
 @media(max-width:700px){.service-carousel-controls{height:560px!important}}
 .hero-bottom{justify-content:flex-end}
+
+/* Final news-image rule: preserve the whole photo at every breakpoint. */
+.news-editorial-list .news-image{display:flex;align-items:center;justify-content:center;overflow:visible}
+.news-editorial-list .news-image img{width:100%;height:100%;object-fit:contain!important;transform:none!important}
+@media(max-width:600px){.news-editorial-list .news-image{aspect-ratio:auto}.news-editorial-list .news-image img{height:auto}}

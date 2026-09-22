@@ -470,3 +470,7 @@
 .home-services-feature .image-wrap{background:#fff}
 .home-services-feature .image-wrap>img{object-fit:contain;object-position:left center;transform:none!important}
 .home-services-feature .image-wrap:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 42%,rgba(255,255,255,.3) 54%,#fff 76%);pointer-events:none}
+
+/* News images reveal their original color on hover. */
+.news-editorial-list .news-image img{filter:grayscale(1);transition:filter .45s ease,transform .7s cubic-bezier(.22,1,.36,1)}
+.news-editorial-list .news-card:hover .news-image img{filter:grayscale(0)}

@@ -614,3 +614,21 @@ html:has(.black-page){scroll-behavior:smooth!important}
 @media(max-width:600px){.experience-date{font-size:.68rem}.experience-row h3{font-size:1.5rem}.experience-row:hover .experience-date{transform:translateX(4px)}}
 .impact{padding-top:60px}
 @media(max-width:600px){.impact{padding-top:42px}}
+.platform-link p{color:var(--graphite)}
+.platform-link p em{color:var(--primary)}
+
+/* Escala tipográfica común */
+:root{--type-copy:clamp(1rem,.4vw + .91rem,1.125rem);--type-small:.875rem;--type-h3:clamp(1.45rem,1.3vw,1.8rem);--type-h2:clamp(2.25rem,3.3vw,3.75rem);--type-h1:clamp(3rem,5.4vw,5.7rem)}
+body{font-size:var(--type-copy);line-height:1.6}
+h1{font-size:var(--type-h1)}h2{font-size:var(--type-h2)}h3{font-size:var(--type-h3)}
+.section p,.service-copy>p:not(.eyebrow),.services-explorer-copy>p:not(.eyebrow),.feature-copy>p:not(.eyebrow),.black-columns,.black-benefit-copy article,.experience-summary,.podcast-feature>div>p:last-child{font-size:var(--type-copy);line-height:1.65}
+.eyebrow,.index,.experience-date{font-size:var(--type-small)}
+.section h2,.feature-copy h2,.service-copy h2,.black-benefit-copy h2{font-size:var(--type-h2)}
+.section h3,.benefits-grid h3,.service-copy h3,.black-benefit-copy h3{font-size:var(--type-h3)}
+@media(max-width:600px){:root{--type-copy:1rem;--type-small:.75rem;--type-h3:1.45rem;--type-h2:2.35rem;--type-h1:3.05rem}.section p,.service-copy>p:not(.eyebrow),.services-explorer-copy>p:not(.eyebrow),.feature-copy>p:not(.eyebrow),.black-columns,.black-benefit-copy article,.experience-summary,.podcast-feature>div>p:last-child{line-height:1.62}}
+.black-page .contact{color:var(--graphite)}
+.black-page .contact .eyebrow{color:var(--primary)}
+.black-page .contact form label,.black-page .contact .form-bottom p,.black-page .contact .form-status{color:var(--graphite)}
+.home-hero .hero-bottom{display:none}
+.home-hero .hero-content{bottom:26px}
+@media(max-width:600px){.home-hero .hero-content{bottom:24px}}

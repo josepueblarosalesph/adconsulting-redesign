@@ -29,7 +29,8 @@ export function HomeHeroVideo({src}:{src:string}){
 
   const hideCopy=()=>{
     const video=videoRef.current;
-    if(video?.currentTime>=7)video.closest('.home-hero')?.classList.add('hero-copy-hidden');
+    if(!video || video.currentTime<7)return;
+    video.closest('.home-hero')?.classList.add('hero-copy-hidden');
   };
 
   return <>

@@ -17,6 +17,10 @@ export function HomeHeroVideo({src}:{src:string}){
       setMuted(true);
       void video.play();
     });
+    const hideTimer=window.setTimeout(()=>{
+      video.closest('.home-hero')?.classList.add('hero-copy-hidden');
+    },7000);
+    return ()=>window.clearTimeout(hideTimer);
   },[]);
 
   const toggleSound=()=>{
@@ -27,14 +31,8 @@ export function HomeHeroVideo({src}:{src:string}){
     void video.play();
   };
 
-  const hideCopy=()=>{
-    const video=videoRef.current;
-    if(!video || video.currentTime<7)return;
-    video.closest('.home-hero')?.classList.add('hero-copy-hidden');
-  };
-
   return <>
-    <video ref={videoRef} className="hero-video" autoPlay loop playsInline preload="auto" onTimeUpdate={hideCopy}>
+    <video ref={videoRef} className="hero-video" autoPlay loop playsInline preload="auto">
       <source src={src} type="video/mp4"/>
     </video>
     <button type="button" className="hero-sound-toggle" onClick={toggleSound} aria-label={muted?'Activar sonido':'Silenciar video'}>

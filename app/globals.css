@@ -672,3 +672,22 @@ h1{font-size:var(--type-h1)}h2{font-size:var(--type-h2)}h3{font-size:var(--type-
 /* Hero photographs start at their top edge; excess height is cropped only below. */
 .about-hero>.service-photo,.ad50-hero>.service-photo{object-position:center top!important}
 .services-explorer:before{background-position:center top!important}
+
+.about-hero .hero-content{transform:translateY(clamp(70px,11vh,150px))}
+@media(max-width:600px){.about-hero .hero-content{transform:translateY(58px)}}
+
+.services-explorer:before{background-position:var(--service-position,center top)!important}
+
+/* Escala tipográfica unificada */
+p,li,label,input,textarea,button,select,.eyebrow,.index,.experience-date,.lead,.hero-description,.experience-summary{font-size:18px!important}
+h1{font-size:48px!important}
+h2{font-size:40px!important}
+h3{font-size:24px!important}
+.hero h1,.news-editorial-hero h1,.services-explorer-copy h2{font-size:80px!important}
+.senior-intro h2 .black-line,.senior-intro h2 .accent-line,.ad50-hero .two-tone-title>span:last-child{font-size:inherit!important}
+@media(max-width:600px){.hero h1,.news-editorial-hero h1,.services-explorer-copy h2{font-size:clamp(48px,12vw,80px)!important}}
+
+.about-hero h1{font-size:48px!important}
+
+.about-hero .hero-content{transform:translateY(clamp(115px,16vh,210px))}
+@media(max-width:600px){.about-hero .hero-content{transform:translateY(88px)}}

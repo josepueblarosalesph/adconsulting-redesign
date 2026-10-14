@@ -17,7 +17,7 @@ export type ServiceExplorerItem = {
 export function ServiceExplorer({services}:{services:ServiceExplorerItem[]}) {
   const [active, setActive] = useState(0);
   const service = services[active];
-  const imagePosition=active===2?'center':active===4?'center 25%':'center top';
+  const imagePosition=active===2?'center':active===4?'center 35%':'center top';
 
   return <section className="services-explorer" id="contenido" style={{'--service-image':`url("${service.image}")`,'--service-position':imagePosition} as CSSProperties}>
     <div className="services-explorer-list" role="tablist" aria-label="Servicios disponibles">

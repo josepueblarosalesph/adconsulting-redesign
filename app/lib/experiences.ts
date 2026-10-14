@@ -6,6 +6,8 @@ export type Experience={id:string;title:string;source:string;summary:string;url:
 export type ExperienceInput=Omit<Experience,'id'>;
 
 const hasDatabase=()=>Boolean(process.env.DATABASE_URL);
+const removedExperienceUrls=['https://lnkd.in/p/dsvHGpTU'];
+const requiredStaticExperienceUrls=['https://open.spotify.com/episode/7G7l54am3KJC9HLv1WM0BZ'];
 const isoDate=(value:string)=>{
   if(/^\d{4}-\d{2}-\d{2}$/.test(value))return value;
   const [day,month,year]=value.split('-');
@@ -54,6 +56,17 @@ async function database(){
     }
     await sql`INSERT INTO experience_admin_settings (key,value) VALUES ('initial-seed','done') ON CONFLICT (key) DO NOTHING`;
   }
+  for (const removedUrl of removedExperienceUrls) {
+    await sql`DELETE FROM experiences WHERE url = ${removedUrl}`;
+  }
+
+  for (const requiredUrl of requiredStaticExperienceUrls) {
+    const item=staticExperiences.find((experience)=>experience.url===requiredUrl);
+    if(item) await sql`INSERT INTO experiences (id,title,source,summary,url,image_url,published_at,published)
+      VALUES (${item.id},${item.title},${item.source},${item.summary},${item.url},${item.imageUrl},${item.date},TRUE)
+      ON CONFLICT (url) DO NOTHING`;
+  }
+
   return sql;
 }
 

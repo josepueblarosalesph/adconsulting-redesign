@@ -722,3 +722,7 @@ h3{font-size:24px!important}
 /* Respaldo sin JavaScript: el texto del hero de inicio se oculta al séptimo segundo. */
 @keyframes home-copy-fade{to{opacity:0;transform:translateY(18px);pointer-events:none}}
 @media(min-width:601px){.home-hero .hero-content{animation:home-copy-fade .8s cubic-bezier(.22,1,.36,1) 7s forwards!important}}
+
+.about-hero .hero-bottom{display:none}
+.about-hero .hero-content{position:absolute;left:0;bottom:76px;padding:0 7%;transform:none!important}
+@media(max-width:600px){.about-hero .hero-content{bottom:54px;padding:0 7%}}

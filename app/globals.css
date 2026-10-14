@@ -718,3 +718,7 @@ h3{font-size:24px!important}
   .black-hero .hero-content{order:0;padding-top:22px;padding-bottom:34px}
   .black-hero .black-card-image.black-hero-card{order:1;margin:0 auto 42px}
 }
+
+/* Respaldo sin JavaScript: el texto del hero de inicio se oculta al séptimo segundo. */
+@keyframes home-copy-fade{to{opacity:0;transform:translateY(18px);pointer-events:none}}
+@media(min-width:601px){.home-hero .hero-content{animation:home-copy-fade .8s cubic-bezier(.22,1,.36,1) 7s forwards!important}}

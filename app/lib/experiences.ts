@@ -7,7 +7,25 @@ export type ExperienceInput=Omit<Experience,'id'>;
 
 const hasDatabase=()=>Boolean(process.env.DATABASE_URL);
 const removedExperienceUrls=['https://lnkd.in/p/dsvHGpTU'];
-const requiredStaticExperienceUrls=['https://open.spotify.com/episode/7G7l54am3KJC9HLv1WM0BZ'];
+const requiredStaticExperienceUrls=[
+  'https://open.spotify.com/episode/7G7l54am3KJC9HLv1WM0BZ',
+  'https://revistanos.cl/ad-consulting-firmo-alianzas-con-lukkap-y-leadership-consulting/',
+  'https://revistanos.cl/liderazgo-y-ley-karin-los-nuevos-desafios-culturales/',
+  'https://revistanos.cl/ad-consulting-crece-gian-piero-lavezzo-se-suma-como-socio-gerente-y-se-incorporan-dos-marcas-internacionales/',
+  'https://revistanos.cl/equipo-ad-consulting-una-decada-generando-valor-en-la-forma-de-seleccionar-a-las-personas/',
+  'https://revistanos.cl/47273-2/',
+  'https://revistanos.cl/60166-2/',
+  'https://revistanos.cl/aspectos-positivos-de-la-digitalizacion-en-hunting-y-seleccion-de-talentos/',
+  'https://revistanos.cl/la-otec-que-transformara-la-experiencia-de-aprendizaje/',
+  'https://revistanos.cl/la-equidad-de-genero-en-el-mundo-laboral-parte-desde-la-seleccion/',
+  'https://revistanos.cl/la-cuarentena-requiere-contencion-y-desahogo/',
+  'https://revistanos.cl/entrevistas-online-la-nueva-tendencia-en-la-seleccion-de-personas/',
+  'https://revistanos.cl/trabajo-mixto-el-nuevo-escenario-laboral/',
+  'https://revistanos.cl/las-oportunidades-del-coaching/',
+  'https://revistanos.cl/la-pandemia-y-la-salud-de-los-trabajadores/',
+  'https://revistanos.cl/ad-consulting-a-la-vanguardia-en-reclutamiento-y-seleccion-online/',
+  'https://revistanos.cl/un-camino-seguro-hacia-el-empleo/'
+];
 const isoDate=(value:string)=>{
   if(/^\d{4}-\d{2}-\d{2}$/.test(value))return value;
   const [day,month,year]=value.split('-');

@@ -735,7 +735,32 @@ h3{font-size:24px!important}
   h4{font-family:'Nunito',sans-serif;font-size:20px!important;line-height:1.15;letter-spacing:-.025em}
   .hero h1,.news-editorial-hero h1,.services-explorer-copy h2{font-size:42px!important}
   .about-hero h1{font-size:24px!important}
-  .home-hero .hero-content{background:#000;color:#fff;padding:30px 7% 38px}
+  .home-hero .hero-content{background:var(--primary);color:#fff;padding:30px 7% 38px}
   .home-hero h1{font-size:32px!important;color:#fff}
   .home-hero .hero-description{color:#fff;font-size:18px!important;margin-top:14px}
+}
+
+/* En móvil el hero de Servicios termina junto a la fotografía. */
+@media(max-width:600px){
+  .services-hero{min-height:0;height:50vw;max-height:360px}
+}
+
+/* En móvil el título de Nosotros fluye como una sola frase. */
+@media(max-width:600px){
+  .about-hero .two-tone-title>span{display:inline}
+  .about-hero .two-tone-title .title-accent::after{content:' '}
+}
+
+/* La fecha acompaña el título en la lectura móvil de Experiencias. */
+.experience-date-mobile{display:none}
+@media(max-width:600px){
+  .experience-row{grid-template-columns:1fr}
+  .experience-date-desktop{display:none}
+  .experience-date-mobile{display:block;margin:10px 0 16px;color:var(--primary);font-weight:700;letter-spacing:.03em}
+}
+
+/* La fotografía de Servicios en Inicio conserva su proporción y no deja espacio inferior en móvil. */
+@media(max-width:600px){
+  .home-services-feature .image-wrap{min-height:0;height:auto;aspect-ratio:3/2}
+  .home-services-feature .image-wrap>.service-photo{height:100%;object-fit:cover}
 }

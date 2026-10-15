@@ -726,3 +726,16 @@ h3{font-size:24px!important}
 .about-hero .hero-bottom{display:none}
 .about-hero .hero-content{position:absolute;left:0;bottom:76px;padding:0 7%;transform:none!important}
 @media(max-width:600px){.about-hero .hero-content{bottom:54px;padding:0 7%}}
+
+/* Ajustes de lectura para pantallas móviles. */
+@media(max-width:600px){
+  h1{font-size:36px!important}
+  h2{font-size:30px!important}
+  h3{font-size:22px!important}
+  h4{font-family:'Nunito',sans-serif;font-size:20px!important;line-height:1.15;letter-spacing:-.025em}
+  .hero h1,.news-editorial-hero h1,.services-explorer-copy h2{font-size:42px!important}
+  .about-hero h1{font-size:24px!important}
+  .home-hero .hero-content{background:#000;color:#fff;padding:30px 7% 38px}
+  .home-hero h1{font-size:32px!important;color:#fff}
+  .home-hero .hero-description{color:#fff;font-size:18px!important;margin-top:14px}
+}

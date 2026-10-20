@@ -258,7 +258,7 @@
 .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}.hero-actions .button{border-radius:999px;background:var(--primary);color:#fff;font-size:18px;font-weight:700;padding:16px 24px;transition:transform .3s,background .3s}.hero-actions .button:hover{background:#f28a3d;color:#fff;transform:translateY(-3px)}
 
 .team-grid .person{border:0;background:none;padding:0;text-align:left;color:inherit;cursor:pointer;width:100%;font:inherit}
-.team-grid .person{text-align:center}
+.team-grid .person{text-align:center;display:flex;flex-direction:column;justify-content:flex-start;align-items:stretch}
 .team-grid .person-image{width:75%;margin:0 auto 18px}
 .team-section .section-heading{align-items:start}
 .team-section .section-heading h2{margin-top:0}

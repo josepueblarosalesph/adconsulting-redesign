@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class ExperienceList extends Component
 {
-    private const PAGE_SIZE = 16;
+    private const PAGE_SIZE = 8;
 
     public int $limit = self::PAGE_SIZE;
 
